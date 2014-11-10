@@ -19,7 +19,8 @@ public class Startup {
         //Declare the list using the LSP.
         List employeeList = new ArrayList(); 
         //Create a list without using Generics and Add Four Employee Objects
-
+        
+        
         employeeList.add(new Employee("Thedog","Lassie","111-11-1111"));
         employeeList.add(new Employee("Hanks","Tom","111-11-1111"));
         employeeList.add(new Employee("Pan","Peter","222-11-2424"));

@@ -12,7 +12,8 @@ package exercise1;
 public class Startup {
     public static void main(String[] args) {
          Employee em = new Employee("Mouse","Mighty","123-45-6789");
-         System.out.println(em.toString());
+         System.out.println(em); // same as System.out.println(em.toString()) Java calls the To string method implicitly
+         
     }
       
 }
