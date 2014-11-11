@@ -1,6 +1,5 @@
 package common;
 
-import exercise1.*;
 import java.util.*;
 
 public class Employee {

@@ -5,7 +5,6 @@
  */
 package excercise2;
 
-import exercise3.*;
 import common.Employee;
 import java.util.ArrayList;
 import java.util.List;
@@ -29,6 +28,7 @@ public class Startup1 {
     employeeList.add(e2);
     employeeList.add(e3);
     employeeList.add(e4);
+    
     int size = employeeList.size();
     System.out.println("The size of the list is:" + size);
     Employee e = (Employee)employeeList.get(1);
